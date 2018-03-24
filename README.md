@@ -11,7 +11,7 @@ Time spent: **5** hours spent in total
     - Vulnerability types:File Disclosure / XSS
     - Tested in version: WP 4.2 // Tribulant 4.6.4.1
     - Fixed in version: 4.6.4.3
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough: <img src="WP-Tribulant_Newsletters_XSS.png" width="800">
   - [ ] Steps to recreate: as wp-admin, use the following URL:
   http://vmdistillery.vm/wp-admin/admin-ajax.php?action=newsletters_gauge&value=1});alert(1);</script> 
   which generates an alert (as seen in the screenshot).
