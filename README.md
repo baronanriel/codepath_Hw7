@@ -16,9 +16,10 @@ Time spent: **10** hours spent in total
   http://vmdistillery.vm/wp-admin/admin-ajax.php?action=newsletters_gauge&value=1});alert(1);</script> 
   which generates an alert (as seen in the screenshot).
   - [ ] Affected source code:
+  	-[Link 1](https://www.exploit-db.com/exploits/42129)	
   
 	
-	1. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+	2. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: This is an XSS attack that allows for privilege escalation with a post. [CVE-2015-5622]
     - Vulnerability types: XSS, Privilege Escalation
     - Tested in version: 4.2
@@ -31,7 +32,7 @@ Time spent: **10** hours spent in total
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
     - [Link 2](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
 
-	1. (Required) WordPress <= 4.4 Admin level XSS
+	3. (Required) WordPress <= 4.4 Admin level XSS
   - [ ] Summary: This is a XSS attack against a logged in admin that 
     - Vulnerability types: XSS
     - Tested in version: 4.2
@@ -43,26 +44,6 @@ Time spent: **10** hours spent in total
   (for a logged in admin level user)
   - [ ] Affected source code:
     - [Link 1](https://twitter.com/brutelogic/status/685105483397619713?lang=en)
-
-	1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-
-	1. (Optional) Vulnerability Name or ID
-  - [ ] Summary: 
-    - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php) 
 
 ## Assets
 
