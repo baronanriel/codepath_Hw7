@@ -6,7 +6,7 @@ Time spent: **10** hours spent in total
 
 ## Pentesting Report
 
-	1. (Required) Wordpress Plugin Tribulant Newsletters 4.6.4.2 - File Disclosure / Cross-Site Scripting
+1. (Required) Wordpress Plugin Tribulant Newsletters 4.6.4.2 - File Disclosure / Cross-Site Scripting
   - [ ] Summary: Multiple File Disclosure and cross site scripting vulnerabilities. 
     - Vulnerability types:File Disclosure / XSS
     - Tested in version: WP 4.2 // Tribulant 4.6.4.1
@@ -19,7 +19,7 @@ Time spent: **10** hours spent in total
   	-[Link 1](https://www.exploit-db.com/exploits/42129)	
   
 	
-	2. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
+2. (Required) WordPress <= 4.2.2 - Authenticated Stored Cross-Site Scripting (XSS)
   - [ ] Summary: This is an XSS attack that allows for privilege escalation with a post. [CVE-2015-5622]
     - Vulnerability types: XSS, Privilege Escalation
     - Tested in version: 4.2
@@ -32,7 +32,7 @@ Time spent: **10** hours spent in total
     - [Link 1](https://wpvulndb.com/vulnerabilities/8111)
     - [Link 2](https://nvd.nist.gov/vuln/detail/CVE-2015-5622)
 
-	3. (Required) WordPress <= 4.4 Admin level XSS
+3. (Required) WordPress <= 4.4 Admin level XSS
   - [ ] Summary: This is a XSS attack against a logged in admin that 
     - Vulnerability types: XSS
     - Tested in version: 4.2
